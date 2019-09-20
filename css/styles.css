@@ -12,9 +12,10 @@ body {
 
 }
 h1 {
-  font-size: 38px;
+  font-style: normal;
+  font-size: 40px;
   color: black;
-  font-weight: bolder;
+  font-weight: 700;
 }
 p {
   font-size: 22px;
