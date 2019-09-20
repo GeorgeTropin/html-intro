@@ -1,0 +1,31 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic');
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  width: 800px;
+  margin: 0 auto;
+  background-image: url(../../image/dc-online-media-mockup.jpg);
+  background-repeat: no-repeat;
+  background-size: 800px 20624px;
+  background-position: top center;
+
+}
+h1 {
+  font-size: 38px;
+  color: black;
+  font-weight: bolder;
+}
+p {
+  font-size: 22px;
+}
+/* */
+div {
+  border: 2px;
+  padding: 30px;
+  width: 500px ;
+  height: 610px;
+  border-style: groove;
+  border-color: inherit;
+  background-color: #F5FFFA;
+}
