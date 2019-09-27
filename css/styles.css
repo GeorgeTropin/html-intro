@@ -5,20 +5,29 @@ body {
   font-family: 'PT Sans', sans-serif;
   width: 800px;
   margin: 0 auto;
-  background-image: url(../../image/dc-online-media-mockup.jpg);
+  background-image: url(.,./Image/image.jpg);
   background-repeat: no-repeat;
   background-size: 800px 20624px;
   background-position: top center;
 
 }
 h1 {
-  font-style: normal;
   font-size: 40px;
   color: black;
   font-weight: 700;
+  margin: 70px 0px 10px 50px;
+}
+
+span.underlined-text {
+    text-decoration: underline;
 }
 p {
-  font-size: 22px;
+  color: #A9A9A9;
+  margin: 0px 0px 10px 50px;
+  font-size: 24px;
+  line-height: 30px;
+  word-spacing: 5px;
+  word-wrap: break-word;
 }
 /* */
 div {
