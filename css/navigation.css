@@ -1,0 +1,35 @@
+nav {
+  position:fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+
+  padding: 20px 30px;
+
+  transition: opacity 400ms ease, box-shadow 400ms ease;
+
+  opacity: 0.5;
+  background-color:  #fff;
+  box-shadow:  2px 2px 8px rgba(0,0,0 0.15);
+}
+nav ul {
+  width 300px;
+}
+
+nav > ul > li:first-child {
+  font-weight: bold;
+}
+nav ul li {
+  margin-bottom: 15px;
+}
+
+nav ul li ul {
+  margin-top: 15px;
+  margin-left: 25px;
+
+  color: rgba(0,0,0,0.5);
+}
+
+nav ul li ul a:hover {
+  color: rgba(0,0,0,0.8);
+}
